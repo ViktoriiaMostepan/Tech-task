@@ -1,0 +1,12 @@
+{
+  "name": "alteryx-qa-automation-test",
+  "version": "0.0.1",
+  "private": true,
+  "baseUrl": "http://alteryx-qa-test.surge.sh",
+  "scripts": {
+    "test": "testcafe chrome TestCafe/integration/*"
+  },
+"devDependencies": {
+  "testcafe": "^1.1.0"
+}
+}
